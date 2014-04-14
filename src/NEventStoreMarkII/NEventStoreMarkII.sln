@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEventStore.Client", "NEventStore.Client\NEventStore.Client.csproj", "{8B0A5277-6DFA-4DA2-820B-DA05932AC642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEventStore", "NEventStore\NEventStore.csproj", "{064FD5CC-9E71-4B75-91BF-6D1D6749B3BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEventStore.Tests", "NEventStore.Tests\NEventStore.Tests.csproj", "{26142D72-93EE-4FCF-8CF2-8EE7A020FE99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B0A5277-6DFA-4DA2-820B-DA05932AC642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0A5277-6DFA-4DA2-820B-DA05932AC642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0A5277-6DFA-4DA2-820B-DA05932AC642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0A5277-6DFA-4DA2-820B-DA05932AC642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{064FD5CC-9E71-4B75-91BF-6D1D6749B3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064FD5CC-9E71-4B75-91BF-6D1D6749B3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064FD5CC-9E71-4B75-91BF-6D1D6749B3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064FD5CC-9E71-4B75-91BF-6D1D6749B3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26142D72-93EE-4FCF-8CF2-8EE7A020FE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26142D72-93EE-4FCF-8CF2-8EE7A020FE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26142D72-93EE-4FCF-8CF2-8EE7A020FE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26142D72-93EE-4FCF-8CF2-8EE7A020FE99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
